@@ -29,7 +29,7 @@ Descargamos la imagen PNG y vemos que contiene la flag:
 ![](../images/flag.png)
 
 
-Realizamos un script que ejecuta los comandos necesarios para extraer la imagen PNG y tomar de ella la flag. Nos muestra por consola un aproximado de la flag contenida en la imagen:
+Realizamos un script que ejecuta los comandos necesarios para extraer la imagen PNG y tomar de ella la flag. Nos muestra por consola un aproximado de la flag obtenida de la imagen:
 
 ![](../images/script-the-data.png)
 
