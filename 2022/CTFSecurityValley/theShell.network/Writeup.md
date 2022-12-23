@@ -4,7 +4,7 @@ NETWORK, 5 points
 
 ## Description
 
-![](../images/description-the-data.jpeg)
+![](../images/description-the-shell.jpeg)
 
 ## Solution
 

@@ -4,7 +4,7 @@ NETWORK, 10 points
 
 ## Description
 
-![](../images/description-the-picture.jpeg)
+![](../images/description-the-data.jpeg)
 
 ## Solution
 

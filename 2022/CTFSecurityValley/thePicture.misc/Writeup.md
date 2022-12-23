@@ -4,7 +4,7 @@ MISC, 5 points
 
 ## Description
 
-![](../images/description-the-shell.jpeg)
+![](../images/description-the-picture.jpeg)
 
 ## Solution
 
