@@ -5,8 +5,11 @@ Los writeups de esta carpeta corresponden a los CTF:
 - TheData desarrollado el día 21/12/2022. URL de referencia: https://ctf.securityvalley.org/dashboard
 
 ## The Picture
-Para ejecutar el script thePicture.py es necesario hacerlo con el comando python3 thePicture.py. Además se debe tener instalado el comando zsteg, que se puede descargar con gem.
+Para ejecutar el script thePicture.py es necesario utilizar el comando python3 thePicture.py. Además debe tener instalado el comando zsteg, que se puede descargar con gem.
+
+## The Shell
+Para ejecutar el script theShell.py es necesario usar el comando python3 theShell.py.
 
 ## The Data
-Instalar
-Para ejecutar el script theData.py es necesario hacerlo con el comando python3 theData.py. Además se debe tener instalado el comando imgclip, que se puede descargar con npm.
+Para ejecutar el script theData.py es necesario hacerlo con el comando python3 theData.py. Además debe tener instalado el comando imgclip, que se puede descargar con npm.
+
