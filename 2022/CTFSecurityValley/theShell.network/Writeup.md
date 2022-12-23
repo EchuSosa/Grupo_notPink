@@ -8,12 +8,12 @@ NETWORK, 5 points
 
 ## Solution
 
-Nos brindan un archivo que contiene una captura de tráfico de red:
+Nos brindan una captura de tráfico de red:
 
 ![](../images/pcap-the-shell.png)
 
 
-Al observarla no notamos nada relevante. Por lo tanto ejecutamos el comando strings sobre el archivo, filtrando con grep "{", ya que sabemos que el formato de la flag contiene "{".
+Al observarla no notamos nada relevante. Por lo tanto ejecutamos el comando strings sobre el archivo, filtrando con grep "{". Ya que sabemos que el formato de la flag contiene "{".
 
 ![](../images/command-the-shell.png)
 
