@@ -8,11 +8,11 @@ MISC, 5 points
 
 ## Solution
 
-Nos brindan un archivo con una imagen:
+Nos brindan una imagen:
 
 ![](./recurso/challenge.png)
 
-Aparentemente la imagen no contiene información relevante, por lo tanto suponemos que contiene un mensaje oculto. Usando el comando zsteg verificamos que hay un mensaje oculto.
+Aparentemente la imagen no contiene información relevante, por lo tanto suponemos que podría contener un mensaje oculto. Usando el comando zsteg verificamos que hay un mensaje oculto.
 
 ![](../images/command-the-picture.png)
 
