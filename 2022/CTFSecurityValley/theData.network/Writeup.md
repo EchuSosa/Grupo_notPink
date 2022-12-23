@@ -9,7 +9,7 @@ NETWORK, 10 points
 
 ## Solution
 
-Nos brindan un archivo que contiene una captura de tráfico de red:
+Nos brindan una captura de tráfico de red:
 
 ![](../images/pcap-the-data.png)
 
@@ -24,7 +24,7 @@ Buscamos la respuesta al GET y notamos que devuelve una imagen PNG:
 ![](../images/200-ok-the-data.png)
 
 
-Descargamos la imagen PNG y contiene la flag:
+Descargamos la imagen PNG y vemos que contiene la flag:
 
 ![](../images/flag.png)
 
