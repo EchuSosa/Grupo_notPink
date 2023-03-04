@@ -12,13 +12,18 @@ def proc():
 
     command="strings " + file + " | grep '"
     for line in lines:
-        command+= line
         cant=cant+1
-        if (cant<len(lines)):
-            command+=  "\|"
-    command+= "'"
+        if (line != "\n"):
+            command+= line
+            if (cant<len(lines)):
+                command+=  "\|"
+            
     command=command.replace("\n","")
+    fin=command[-2:]
+    if (fin=="\|"):
+        command=command[:-2]
 
+    command+="'"
     result = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
     return result.stdout.read()
 print("Buscando...")
