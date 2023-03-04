@@ -3,9 +3,21 @@ import subprocess
 import sys
 
 def proc():
-    file=sys.argv[1]
-    dic=sys.argv[2]
-    diccionario= open(dic,"r")
+    try:
+        file=sys.argv[1]
+    except:
+        print("Ingrese la ruta de la imagen como primer parámetro ")
+        sys.exit()
+    try:
+        dic=sys.argv[2]
+    except:
+        print("Ingrese la ruta al diccionario como segundo parámetro")
+        sys.exit()
+    try:
+        diccionario= open(dic,"r")
+    except:
+        print("Ingrese la ruta a un diccionario válido")
+        sys.exit()
 
     cant=0
     lines=diccionario.readlines()
@@ -24,5 +36,9 @@ def proc():
 print("Buscando...")
 resultado= proc()
 resultado= str(resultado).split('"')
-print("FLAG: "+resultado[1])
+try:
+    print("FLAG: "+resultado[1])
+except: 
+    print("No se encontró la flag")
+    sys.exit()
 
