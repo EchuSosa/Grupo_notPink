@@ -26,4 +26,4 @@ Reto completado:
 
 Realizamos un script genérico que se puede utilizar con cualquier archivo png y con un diccionario que incluye las partes de la flag conocidas:
 
-![](../images/script-the-picture-actualizado.png)
+![](../images/script-the-picture-genérico.png)
