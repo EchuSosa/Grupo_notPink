@@ -26,3 +26,8 @@ Realizamos un script que ejecuta los comandos y nos muestra la flag oculta en lo
 Reto completado:
 
 ![](../images/congratulations-the-shell.png)
+
+
+Realizamos un script genérico que se puede utilizar con cualquier archivo pcapng y con un diccionario que incluye las partes de la flag conocidas:
+
+![](../images/script-the-shell-genérico.png)
