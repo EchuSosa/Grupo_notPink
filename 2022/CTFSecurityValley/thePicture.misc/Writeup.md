@@ -23,3 +23,7 @@ Realizamos un script que ejecuta el comando y nos muestra la flag oculta:
 Reto completado:
 
 ![](../images/congratulations-the-picture.png)
+
+Realizamos un script genérico que se puede utilizar con cualquier archivo png y con un diccionario que incluye las partes de la flag conocidas:
+
+![](../images/script-the-picture-actualizado.png)
